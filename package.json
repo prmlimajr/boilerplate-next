@@ -6,6 +6,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint src",
+    "postinstall": "husky install",
     "prepare": "husky install"
   },
   "lint-staged": {
